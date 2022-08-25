@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build && npm list"
+  command = "npm run build && npm list -g"
   publish = ".next"
 
 [functions]
