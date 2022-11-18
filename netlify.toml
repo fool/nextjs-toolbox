@@ -3,12 +3,10 @@
   publish = ".next"
   edge_functions = "edge_functions"
 
-
-
 [functions]
   node_bundler = "esbuild"
 
-[[edge functions]]
+[[edge_functions]]
   path = "/test"
   function = "hello"
 
