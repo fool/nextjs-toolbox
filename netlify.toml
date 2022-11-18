@@ -1,9 +1,18 @@
 [build]
   command = "npm run build && npm list -g"
   publish = ".next"
+  edge_functions = "edge_functions"
+
+
 
 [functions]
   node_bundler = "esbuild"
+
+[[edge functions]]
+  path = "/test"
+  function = "hello"
+
+
 
 
 ## Learn more about redirects here
